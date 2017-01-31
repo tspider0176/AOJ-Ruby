@@ -6,6 +6,7 @@ def maxValInHash(hash)
   hash.map{|k, v| v}.max
 end
 
+
 loop do
   n, k = STDIN.gets.chomp.split(' ').map(&:to_i)
   if n == 0 && k == 0 then break end
